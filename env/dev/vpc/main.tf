@@ -1,6 +1,6 @@
 module "vpc" {
-  source  = "../../../modules/vpc"
+  source = "../../../modules/vpc"
 
-  environment = "dev"
+  environment     = "dev"
   ip_range_prefix = "10.10"
 }
