@@ -1,0 +1,23 @@
+{
+  "files.associations": {
+    "*.tftpl": "yaml",
+    "*.tmpl": "terraform"
+  },
+  "files.watcherExclude": {
+    "**/.terragrunt-cache": true,
+    "**/.terraform.lock.hcl": true,
+    "**/.terraform": true
+  },
+  "[terraform]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.tabSize": 2
+  },
+  "[terraform-vars]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.tabSize": 2
+  }
+}
