@@ -33,15 +33,12 @@ output "vpc_private_subnets" {
   value       = module.vpc.vpc_private_subnets
 }
 
-# public subnet arns
 output "vpc_public_subnet_arns" {
   description = "pulbic subnet arns"
   value       = module.vpc.vpc_public_subnet_arns
 }
 
-# private subnet arns
 output "vpc_private_subnet_arns" {
   description = "private subnet arns"
   value       = module.vpc.vpc_private_subnet_arns
 }
-
